@@ -5,7 +5,9 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unique-words", "unique-words\unique-words.csproj", "{425E972A-A4A0-4DE2-91FD-4DF2023F3BB2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unique-words.Tests", "unique-words.Tests\unique-words.Tests.csproj", "{714CFF1B-0E92-4279-9ED2-CA74FBEDF57B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "unique-words-acceptance-tests", "unique-words.Tests\unique-words-acceptance-tests.csproj", "{714CFF1B-0E92-4279-9ED2-CA74FBEDF57B}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "unique-words-unit-tests", "unique-words-test\unique-words-unit-tests.vbproj", "{93B3EEDA-8EB7-4ABD-9A67-DED27B1EA0DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{714CFF1B-0E92-4279-9ED2-CA74FBEDF57B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{714CFF1B-0E92-4279-9ED2-CA74FBEDF57B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{714CFF1B-0E92-4279-9ED2-CA74FBEDF57B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B3EEDA-8EB7-4ABD-9A67-DED27B1EA0DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B3EEDA-8EB7-4ABD-9A67-DED27B1EA0DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B3EEDA-8EB7-4ABD-9A67-DED27B1EA0DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B3EEDA-8EB7-4ABD-9A67-DED27B1EA0DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

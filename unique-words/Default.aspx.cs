@@ -13,5 +13,22 @@ namespace unique_words
         {
 
         }
+
+        public Dictionary<string, int> GetCount(string inputText)
+        {
+            var results = new Dictionary<string, int>();
+            foreach (var word in inputText.Split(' '))
+            {
+                if (results.ContainsKey(word))
+                {
+                    results[word] += 1;
+                }
+                else
+                {
+                    results.Add(word, 1);
+                }
+            }
+            return results;
+        }
     }
 }
